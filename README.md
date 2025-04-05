@@ -100,14 +100,13 @@ Các tùy chọn cấu hình chính:
 
 ## 📜 Lịch sử phiên bản
 
-### v2.0.0 (04-04-2025)
+### v2.0.0 (05-04-2025)
 - [x] Thêm hỗ trợ nguồn Deezer và Mixcloud
 - [x] Cải thiện hiệu năng tìm kiếm
 - [x] Thêm tính năng quản lý playlist và lịch sử nghe
 
-### v1.0.0 (01-01-2025)
+### v1.0.0 (Không rõ do không upload lên github)
 - [x] Phiên bản đầu tiên
-- [x] Thêm hệ thống cache
 - [x] Cải thiện giao diện
 
 ---
