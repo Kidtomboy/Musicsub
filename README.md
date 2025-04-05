@@ -1,37 +1,37 @@
-# MusicSub Pro Max - Công cụ phát nhạc từ terminal
+# MusicSub Pro Max - Trình Phát Nhạc Đa Nền Tảng
 
 ![GitHub](https://img.shields.io/github/license/kidtomboy/MusicSub)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![MusicSub Logo](https://i.imgur.com/wmNNw7m.jpeg)
 
-**MusicSub Pro Max** là công cụ mạnh mẽ giúp bạn tìm kiếm, phát nhạc và tải bài hát từ nhiều nguồn khác nhau trực tiếp từ terminal.
+**MusicSub Pro Max** là trình phát nhạc đa nền tảng mạnh mẽ với giao diện terminal ấn tượng, hỗ trợ phát nhạc từ nhiều nguồn khác nhau.
 
-## 🌟 Tính năng nổi bật
+## 🌟 Tính Năng Nổi Bật
 
-- 🔍 **Tìm kiếm nhạc** từ nhiều nguồn: YouTube, Spotify, SoundCloud, Mixcloud, Deezer
-- ▶️ **Phát trực tiếp** với trình phát yêu thích (mpv/vlc/ffplay)
-- 💾 **Tải xuống** bài hát với nhiều tùy chọn chất lượng
-- 🎵 **Quản lý playlist** và phát nhạc
-- 🕒 **Lịch sử nghe** chi tiết
+- 🎵 **Đa nguồn nhạc**: YouTube, Spotify, SoundCloud, Mixcloud, Deezer
+- 💾 **Tải nhạc đa chất lượng**: 128k, 192k, 256k, 320k
+- 📜 **Hiển thị lời bài hát** trực tiếp
+- 🎨 **Visualizer âm thanh** (yêu cầu cava)
+- 🎶 **Quản lý playlist** cá nhân
 - ⭐ **Danh sách yêu thích** thông minh
+- 🕒 **Lịch sử nghe** chi tiết
 - ⚙️ **Hệ thống cache** và cấu hình linh hoạt
-- 📱 **Hỗ trợ đa nền tảng**: Linux, Windows, macOS, Android/Termux
-- 🎨 **Giao diện terminal** đẹp với nhiều theme
-- 📜 **Hiển thị lời bài hát** và visualizer âm thanh
+- 📱 **Đa nền tảng**: Linux, Windows, macOS, Android/Termux
+- 🎨 **Giao diện đẹp** với nhiều theme màu sắc
 
-## 📥 Cài đặt
+## 📥 Cài Đặt
 
-### Yêu cầu hệ thống
+### Yêu Cầu Hệ Thống
 - Bash 4.0+
-- Các công cụ cần thiết: `curl`, `jq`, `fzf`, `mpv`, `yt-dlp` (hoặc trình phát khác)
+- Các công cụ cần thiết: `curl`, `jq`, `fzf`, `mpv` (hoặc trình phát khác), `yt-dlp`
 
-### Cài đặt tự động
+### Cài Đặt Tự Động
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/kidtomboy/MusicSub/main/musicsub.sh)
 ```
 
-### Cài đặt thủ công
+### Cài Đặt Thủ Công
 1. Tải script:
 ```bash
 curl -o musicsub.sh https://raw.githubusercontent.com/kidtomboy/MusicSub/main/musicsub.sh
@@ -47,18 +47,18 @@ chmod +x musicsub.sh
 ./musicsub.sh
 ```
 
-## 🚀 Cách sử dụng
+## 🚀 Cách Sử Dụng
 
-### Chế độ tương tác
+### Chế Độ Tương Tác
 ```bash
 ./musicsub.sh
 ```
-Sau đó chọn các tùy chọn từ menu.
+Sau đó chọn các tùy chọn từ menu
 
-### Chế độ dòng lệnh
+### Chế Độ Dòng Lệnh
 - Phát trực tiếp:
 ```bash
-./musicsub.sh --play "Tên bài hát"
+./musicsub.sh --play "Tên Bài Hát"
 ```
 
 - Tìm kiếm:
@@ -71,166 +71,94 @@ Sau đó chọn các tùy chọn từ menu.
 ./musicsub.sh --download "URL"
 ```
 
-## 🛠 Công cụ tích hợp
-
-1. **Quản lý playlist**:
-   - Tạo và xóa playlist
-   - Thêm bài hát vào playlist
-
-2. **Theo dõi lịch sử nghe**:
-   - Lưu lại lịch sử nghe
-   - Xem lại lịch sử
-
-3. **Quản lý cache**:
-   - Dọn dẹp cache
-   - Tùy chỉnh thời gian lưu cache
-
-## ⚙️ Cấu hình
+## ⚙️ Cấu Hình
 
 Chương trình tự động tạo file cấu hình tại:
 - Linux/macOS: `~/.config/musicsub_pro/config.cfg`
 - Windows: `%APPDATA%/musicsub_pro/config.cfg`
 - Termux: `~/.config/musicsub_pro/config.cfg`
 
-Các tùy chọn cấu hình chính:
-- Trình phát mặc định (mpv/vlc/ffplay)
+Các tùy chọn chính:
+- Trình phát mặc định (mpv/vlc)
 - Chất lượng nhạc (128k/192k/256k/320k)
 - Theme giao diện (dark/light/blue/green/red)
 - Thư mục tải xuống
 - Bật/tắt thông báo
 
-## 📜 Lịch sử phiên bản
+## 📜 Lịch Sử Phiên Bản
 
 ### v2.0.0 (04/04/2025)
-- [x] Thêm hỗ trợ Spotify và SoundCloud
-- [x] Cải thiện tốc độ tìm kiếm
-- [x] Thêm tính năng quản lý playlist
-- [x] Hỗ trợ trên nhiều nền tảng
+- [x] Thêm hỗ trợ Deezer và Mixcloud
+- [x] Cải thiện hiệu năng tìm kiếm
+- [x] Thêm tính năng visualizer âm thanh
+- [x] Hỗ trợ Termux trên Android
 
 ### v1.0.0 (15/03/2025)
 - [x] Phiên bản đầu tiên
-- [x] Hệ thống cache
-- [x] Giao diện người dùng
+- [x] Hệ thống cache thông minh
+- [x] Giao diện terminal đa màu sắc (chưa cập nhật lại giao diện)
 
----
+## 🐛 Báo Cáo Lỗi
 
-## 🐛 Báo cáo lỗi (Bug Reports)
-
-Nếu bạn gặp bất kỳ lỗi nào khi sử dụng MusicSub Pro Max, vui lòng làm theo các bước sau:
-
-### Cách báo cáo lỗi
-1. **Kiểm tra lỗi đã được báo cáo chưa**:
-   - Xem qua [mục Issues](https://github.com/kidtomboy/MusicSub/issues) để chắc chắn lỗi chưa được báo cáo.
-
-2. **Thu thập thông tin**:
+Nếu gặp lỗi khi sử dụng, vui lòng:
+1. Kiểm tra [mục Issues](https://github.com/kidtomboy/MusicSub/issues)
+2. Thu thập thông tin:
    - Phiên bản MusicSub: `./musicsub.sh --version`
-   - Hệ điều hành và phiên bản
-   - Các thông báo lỗi từ terminal
-   - File log (nằm trong `~/.config/musicsub_pro/logs/`)
+   - Hệ điều hành
+   - Thông báo lỗi
+   - File log (`~/.config/musicsub_pro/logs/`)
+3. Tạo báo cáo mới trên GitHub
 
-3. **Tạo báo cáo lỗi mới**:
-   - Truy cập [trang Issues](https://github.com/kidtomboy/MusicSub/issues/new/choose)
-   - Chọn "Bug Report"
-   - Điền đầy đủ thông tin theo mẫu
-
-### Mẫu báo cáo lỗi chuẩn
-```markdown
-**Mô tả lỗi**
-Mô tả rõ ràng và chi tiết về lỗi gặp phải.
-
-**Các bước để tái tạo lỗi**
-1. Bước 1...
-2. Bước 2...
-3. Xem lỗi xảy ra.
-
-**Kết quả mong đợi**
-Bạn mong đợi điều gì sẽ xảy ra?
-
-**Ảnh chụp màn hình/Ghi hình**
-Nếu có thể, hãy đính kèm ảnh chụp hoặc video.
-
-**Thông tin hệ thống**
-- OS: [e.g. Ubuntu 22.04]
-- MusicSub Version: [e.g. 2.0.0]
-- Terminal: [e.g. Terminator, GNOME Terminal]
-
-**File log**
-Đính kèm file log hoặc paste nội dung lỗi (xóa thông tin nhạy cảm).
-```
-
-## 🛠 Tự khắc phục lỗi thường gặp
-
-Một số lỗi phổ biến và cách khắc phục:
+## 🛠 Tự Khắc Phục Lỗi Thường Gặp
 
 ### 1. Lỗi thiếu phụ thuộc
 ```bash
-[ERROR] Thiếu package: mpv
+[ERROR] Thiếu package: yt-dlp
 ```
 **Cách khắc phục**:
 ```bash
 # Ubuntu/Debian
-sudo apt install mpv
+sudo apt install yt-dlp
 
 # Arch Linux
-sudo pacman -S mpv
+sudo pacman -S yt-dlp
 
 # Termux
-pkg install mpv-x
-... (hãy install những packages còn thiếu)
+pkg install yt-dlp
 ```
 
-### 2. Lỗi kết nối
-```bash
-[ERROR] Không thể kết nối đến nguồn nhạc
-```
-**Cách khắc phục**:
-- Kiểm tra kết nối Internet
-- Thử đổi DNS (8.8.8.8 hoặc 1.1.1.1)
-- Chờ 5 phút và thử lại
-
-### 3. Lỗi phát nhạc
+### 2. Lỗi phát nhạc
 ```bash
 [ERROR] Không thể phát nhạc
 ```
 **Cách khắc phục**:
-1. Thử đổi trình phát mặc định:
-```bash
-# Trong menu cài đặt
-Chọn "Thay đổi trình phát mặc định"
-```
-2. Cập nhật driver âm thanh.
+1. Thử đổi trình phát trong cài đặt
+2. Kiểm tra kết nối Internet
+3. Xem file log để biết chi tiết lỗi
 
-### 4. Lỗi Font chữ
-```bash
-[WARNING] Hiển thị font chữ không đúng
-```
-**Cách khắc phục**:
-- Cài đặt font đầy đủ:
-```bash
-# Linux
-sudo apt install fonts-noto
-```
+## 🤝 Đóng Góp
 
-### **Chúng tôi hoan nghênh mọi đóng góp để cải thiện MusicSub!**
+Chúng tôi hoan nghênh mọi đóng góp:
+1. Fork repository
+2. Tạo branch mới
+3. Commit thay đổi
+4. Push lên branch
+5. Tạo Pull Request
 
-## 🙏 Cảm ơn
+## **Rất cần người thử nghiệm và báo cáo lỗi! Vì shell trên được dựa hoàn toàn vào [Anisub](https://github.com/kidtomboy/Anisub)**
 
-- **Cộng đồng mã nguồn mở** - Đóng góp ý tưởng và công cụ
-
-## 👨‍💻 Tác giả
-- Original: [Kidtomboy](https://github.com/kidtomboy)
+## 👨‍💻 Tác Giả
+Original: [Kidtomboy](https://github.com/kidtomboy)
 
 ## 💖 Donate
 
-Nếu thấy dự án hữu ích, bạn có thể ủng hộ tác giả qua:
-- [GitHub Sponsors](https://raw.githubusercontent.com/Kidtomboy/Kidtomboy/refs/heads/main/images/bank/BIDV_Kidtomboy.jpg)
+Ủng hộ tác giả qua:
+- [GitHub Sponsors](https://github.com/sponsors/kidtomboy)
 - Momo: 038.783.1869 | Cherry🍒
 
-## 📄 Dự án này được phân phối theo giấy phép MIT.
-
-- [Giấy Phép MIT](https://raw.githubusercontent.com/Kidtomboy/MusicSub/main/LICENSE)
+## 📄 Giấy Phép
+Dự án được phân phối theo [Giấy Phép MIT](https://raw.githubusercontent.com/Kidtomboy/MusicSub/main/LICENSE)
 
 ---
 
-**MusicSub Pro Max** - Phát nhạc mọi lúc, mọi nơi! 🎉
-```
+🎶 **MusicSub Pro Max - Âm nhạc mọi lúc, mọi nơi!** 🎶
