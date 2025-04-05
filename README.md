@@ -229,7 +229,7 @@ Chúng tôi hoan nghênh mọi đóng góp để cải thiện MusicSub:
 4. Push lên branch
 5. Tạo Pull Request
 
-## **Chúng tôi rất cần mọi ý kiến đóng góp để hoàn thiện sản phẩm này!**
+### **Hiện giờ rất cần mọi ý kiến đóng góp để hoàn thiện sản phẩm này! Đang có lỗi ở Spotify và Deezer nên có lẽ sẽ fix sau**
 
 ## 🙏 Cảm ơn
 
