@@ -161,7 +161,7 @@ Nếu có thể, hãy đính kèm ảnh chụp hoặc video
 ```bash
 git checkout tags/v1.0.0
 ```
-2. Liên hệ trực tiếp qua email: kidtomboy@example.com
+2. Liên hệ trực tiếp qua email: iamkidtomboyreal@gmail.com
 
 ## 🛠 Tự khắc phục lỗi thường gặp
 
