@@ -1,0 +1,29 @@
+Hướng dẫn Đóng góp cho Musicsub
+
+Cảm ơn bạn đã quan tâm đến việc đóng góp cho Musicsub! Chúng tôi hoan nghênh mọi sự đóng góp để cải thiện dự án này. Dưới đây là hướng dẫn để bạn có thể tham gia.
+
+1. Các cách để đóng góp:
+   - Báo lỗi: Nếu bạn phát hiện lỗi hoặc sự cố, hãy kiểm tra xem vấn đề đó đã được báo cáo chưa. Nếu chưa, hãy tạo một vấn đề mới và mô tả chi tiết về lỗi.
+   - Yêu cầu tính năng: Nếu bạn có ý tưởng cho một tính năng mới, hãy gửi yêu cầu cho chúng tôi. Hãy mô tả cách mà tính năng này sẽ cải thiện dự án.
+   - Gửi Pull Requests: Nếu bạn muốn cải thiện mã nguồn, hãy làm theo hướng dẫn dưới đây.
+
+2. Quy trình gửi Pull Request:
+   - Fork repository của chúng tôi.
+   - Tạo một chi nhánh mới cho các thay đổi của bạn.
+   - Thực hiện các thay đổi bạn muốn thêm vào mã nguồn.
+   - Kiểm tra mã nguồn để đảm bảo rằng mọi thứ hoạt động tốt.
+   - Commit các thay đổi với thông điệp rõ ràng.
+   - Đẩy chi nhánh của bạn lên fork trên GitHub.
+   - Tạo Pull Request từ chi nhánh của bạn về repository gốc Musicsub.
+
+3. Tiêu chuẩn mã nguồn:
+   - Sử dụng định dạng mã nguồn nhất quán và tuân thủ các quy tắc lập trình.
+   - Thêm chú thích khi cần thiết để làm rõ các phần mã phức tạp.
+
+4. Chính sách về tham gia:
+   Chúng tôi mong muốn xây dựng một cộng đồng tích cực và thân thiện. Vui lòng tôn trọng các thành viên khác trong cộng đồng.
+
+5. Các câu hỏi thường gặp:
+   Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ thêm, hãy mở một vấn đề mới hoặc liên hệ với chúng tôi.
+
+Cảm ơn bạn vì đã muốn đóng góp cho Musicsub! Chúng tôi rất mong nhận được sự ủng hộ của bạn.
