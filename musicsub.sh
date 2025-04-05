@@ -4,9 +4,8 @@
 # MUSICSUB BY CHERRY | KIDTOMBOY
 # Phiên bản: 2.0.0
 # Tác giả: 
-#   - Original: @NiyakiPham 
-#   - Remake & Enhance: @Kidtomboy
-# Ngày cập nhật: 04-04-2025
+#   - Original: @Kidtomboy
+# Ngày cập nhật: 05-04-2025
 #
 # Tính năng chính:
 # - Phát nhạc từ nhiều nguồn (Spotify, YouTube, SoundCloud, Mixcloud, Deezer)
@@ -22,7 +21,7 @@
 
 # ============================ CẤU HÌNH HỆ THỐNG ============================
 VERSION="2.0.0"
-AUTHORS=("Kidtomboy (Remake & Enhance)" "NiyakiPham (Original)")
+AUTHORS=("Kidtomboy (Original)")
 DONATION_LINK="https://github.com/kidtomboy"
 
 # ============================ BIỂU TƯỢNG UNICODE ============================
